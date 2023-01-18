@@ -64,11 +64,41 @@ const Boardroom = () => {
 
   return (
     <Page>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"></link>
       <BackgroundImage />
       <Helmet>
         <title>{TITLE}</title>
       </Helmet>
-          <h5 align="center">Bomb Finance Sumarry</h5>
+          <h5 align="center" color="textPrimary">Bomb Finance Sumarry</h5>
+          <div class="container text-center" color="textPrimary">
+            <div class="col-4" color="textPrimary">
+            <table>
+              <tr>
+                <th></th>
+                <th>Current Supply</th>
+                <th>Total Supply</th>
+                <th>Price</th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+            </table>
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-4">
+
+            </div>
+          </div>
           <Typography color="textPrimary" align="center" variant="h3" gutterBottom>
             Bomb Finance Sumarry
           </Typography>
@@ -200,6 +230,7 @@ const Boardroom = () => {
             </Grid>
           </Box>
         )}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </Page>
   );
 };

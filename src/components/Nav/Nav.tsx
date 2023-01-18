@@ -147,6 +147,11 @@ const Nav = () => {
                       </Link>
                     </li>
                     <li className={'navDropdownMenuItem'}>
+                      <Link to="/dashboard" className={'navLink ' + classes.link}>
+                        Dashboard
+                      </Link>
+                    </li>
+                    <li className={'navDropdownMenuItem'}>
                       <a
                           href="https://bomb.farm"
                           className={'navLink ' + classes.link}
